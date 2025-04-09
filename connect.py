@@ -32,7 +32,11 @@ def ssh_connect(ip, username, password):
 
 if __name__ == "__main__":
     ip = input("🔗 Enter the IP address to connect to: ")
-    username = input("👤 Enter your SSH username: ")
-    password = getpass.getpass("🔑 Enter your SSH password: ")
+    #username = input("👤 Enter your SSH username: ")
+    #password = getpass.getpass("🔑 Enter your SSH password: ")
+    username = "admin"
+    password = "NECTARY-checkers-divers"
+
     
     ssh_connect(ip, username, password)
+    exec_command("execute backup config tftp 2025-04-09.config 10.83.83.196")
