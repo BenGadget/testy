@@ -77,6 +77,6 @@ file.close()
     #password = getpass.getpass("🔑 Enter your SSH password: ")
     #ip = "10.82.82.12"
     #username = "admin"
-    #password = "NECTARY-checkers-divers"
+    #password = "Password"
     
 #    ssh_connect(ip, username, password)
